@@ -8,10 +8,10 @@ Gem::Specification.new do |spec|
   spec.version       = Cheflab::VERSION
   spec.authors       = ["Zachary Patten"]
   spec.email         = ["zachary@jovelabs.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Proof of concept}
+  spec.summary       = %q{Proof of concept}
   spec.homepage      = ""
-  spec.license       = "MIT"
+  spec.license       = "Apache 2.0"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
